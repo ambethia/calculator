@@ -52,6 +52,7 @@ export function Calculator() {
         setLeftOperand(leftOperand / rightOperand)
         break
       default:
+        setLeftOperand(rightOperand)
         break
     }
     setRightOperand(0)
