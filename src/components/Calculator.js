@@ -40,7 +40,6 @@ export function Calculator() {
   }
 
   function result() {
-    console.log(result)
     switch (currentOperation) {
       case 'add':
         setRightOperand(leftOperand + rightOperand)
@@ -57,6 +56,7 @@ export function Calculator() {
       default:
         break
     }
+    console.log({ result: rightOperand })
   }
 
   return (
