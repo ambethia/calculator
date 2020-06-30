@@ -43,19 +43,19 @@ export function Calculator() {
         </Button>
         <Button fn>&#177;</Button>
         <Button fn>&#37;</Button>
-        <Button onClick={op('add')} op>
+        <Button onClick={op('divite')} op>
           &#247;
         </Button>
         <Button onClick={num(7)}>7</Button>
         <Button onClick={num(8)}>8</Button>
         <Button onClick={num(9)}>9</Button>
-        <Button onClick={op('add')} op>
+        <Button onClick={op('multiply')} op>
           &#215;
         </Button>
         <Button onClick={num(4)}>4</Button>
         <Button onClick={num(5)}>5</Button>
         <Button onClick={num(6)}>6</Button>
-        <Button onClick={op('add')} op>
+        <Button onClick={op('subtract')} op>
           &#8722;
         </Button>
         <Button onClick={num(1)}>1</Button>
