@@ -19,7 +19,7 @@ export function Calculator() {
 
   return (
     <div className="calculator">
-      <div className="display">0</div>
+      <div className="display">{leftOperand}</div>
       <div className="buttons">
         <Button fn>AC</Button>
         <Button fn>&#177;</Button>
