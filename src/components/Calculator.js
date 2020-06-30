@@ -11,7 +11,6 @@ export function Calculator() {
 
   function num(value) {
     console.log({ value })
-    return () => {
       let newNumber = leftOperand * 10
       newNumber += value
       console.log({ value, newNumber, leftOperand })
