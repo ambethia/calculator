@@ -33,6 +33,8 @@ export function Calculator() {
   function op(operation) {
     return () => {
       setCurrentOperation(operation)
+      setLeftOperand(rightOperand)
+      setRightOperand(0)
     }
   }
 
