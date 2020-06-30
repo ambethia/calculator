@@ -49,7 +49,9 @@ export function Calculator() {
         <Button onClick={num(4)}>4</Button>
         <Button onClick={num(5)}>5</Button>
         <Button onClick={num(6)}>6</Button>
-        <Button op>&#8722;</Button>
+        <Button onClick={op('add')} op>
+          &#8722;
+        </Button>
         <Button onClick={num(1)}>1</Button>
         <Button onClick={num(2)}>2</Button>
         <Button onClick={num(3)}>3</Button>
