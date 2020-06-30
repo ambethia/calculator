@@ -28,7 +28,7 @@ export function Calculator() {
         setRightOperand(value)
       } else {
         if (decimal) {
-          setRightOperand(rightOperand * 10 + value / 10)
+          setRightOperand(rightOperand + value / 10)
           setDecimal(false)
         } else {
           setRightOperand(rightOperand * 10 + value)
