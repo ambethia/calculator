@@ -28,6 +28,7 @@ main {
   padding: 2px;
   display: flex;
   flex-direction: column;
+  color: white;
 }
 
 .display {
@@ -35,7 +36,6 @@ main {
   padding: 24px;
   font-size: 72px;
   text-align: right;
-  color: white;
 }
 
 .buttons {
