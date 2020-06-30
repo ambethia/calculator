@@ -10,6 +10,7 @@ export function Calculator() {
   const [rightOperand, setRightOperand] = useState(0)
 
   function num(value) {
+    console.log({ value })
     return () => {
       let newNumber = leftOperand * 10
       newNumber += value
