@@ -29,6 +29,8 @@ export function Calculator() {
   function op(operation) {
     return () => {
       result()
+      setLeftOperand(rightOperand)
+      setRightOperand(0)
       setCurrentOperation(operation)
     }
   }
