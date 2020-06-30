@@ -97,6 +97,9 @@ export function Calculator() {
           &#61;
         </Button>
       </div>
+      <p>L: {leftOperand}</p>
+      <p>O: {currentOperation}</p>
+      <p>R: {rightOperand}</p>
     </div>
   )
 }
