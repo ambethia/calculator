@@ -11,7 +11,7 @@ export function Calculator() {
       <div className="display">0</div>
       <div className="buttons">
         <Button>AC</Button>
-        <Button>&#8800;</Button>
+        <Button>&#177;</Button>
         <Button>&#37;</Button>
         <Button>&#247;</Button>
         <Button>7</Button>
