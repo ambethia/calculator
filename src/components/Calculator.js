@@ -65,7 +65,7 @@ export function Calculator() {
   return (
     <div className="calculator">
       <div className="display">
-        {rightOperand > 0 ? rightOperand : leftOperand}
+        {Math.abs(rightOperand) > 0 ? rightOperand : leftOperand}
       </div>
       <div className="buttons">
         <Button fn onClick={clear}>
