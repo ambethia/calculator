@@ -67,6 +67,10 @@ main {
   background-color: #f3a23b;
 }
 
+.button:nth-last-child(3) {
+  border-bottom-left-radius: 8px;
+}
+
 .button:last-child {
   border-bottom-right-radius: 8px;
 }
