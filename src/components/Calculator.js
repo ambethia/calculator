@@ -1,7 +1,7 @@
 import React from 'react'
 import cx from 'classnames'
 
-function Button({ double, children }) {
+function Button({ x2: double, children }) {
   return <button className={cx('button', { double })}>{children}</button>
 }
 
