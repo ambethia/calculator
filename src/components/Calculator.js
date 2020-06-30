@@ -65,7 +65,9 @@ export function Calculator() {
   return (
     <div className="calculator">
       <div className="display">
-        {Math.abs(rightOperand) > 0 ? rightOperand : leftOperand}
+        {(Math.abs(rightOperand) > 0 ? rightOperand : leftOperand).toPrecision(
+          10
+        )}
       </div>
       <div className="buttons">
         <Button fn onClick={clear}>
