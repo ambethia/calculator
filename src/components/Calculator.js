@@ -43,7 +43,7 @@ export function Calculator() {
         </Button>
         <Button fn>&#177;</Button>
         <Button fn>&#37;</Button>
-        <Button onClick={op('divite')} op>
+        <Button onClick={op('divide')} op>
           &#247;
         </Button>
         <Button onClick={num(7)}>7</Button>
