@@ -30,6 +30,7 @@ main {
 .display {
   margin-top: 44px;
   padding: 24px;
+  font-size: 72px;
   text-align: right;
   color: white;
 }
