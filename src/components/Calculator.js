@@ -33,6 +33,12 @@ export function Calculator() {
     }
   }
 
+  function percent() {
+    setRightOperand(rightOperand * 0.01)
+  }
+
+  function changeSign() {}
+
   function result() {
     switch (currentOperation) {
       case 'add':
@@ -63,8 +69,12 @@ export function Calculator() {
         <Button fn onClick={clear}>
           {rightOperand > 0 || currentOperation ? 'C' : 'AC'}
         </Button>
-        <Button fn>&#177;</Button>
-        <Button fn>&#37;</Button>
+        <Button onClick={changeSign} fn>
+          &#177;
+        </Button>
+        <Button onClick={percent} fn>
+          &#37;
+        </Button>
         <Button onClick={op('divide')} op>
           &#247;
         </Button>
