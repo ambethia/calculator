@@ -17,19 +17,21 @@ export function Calculator() {
         <Button fn>&#177;</Button>
         <Button fn>&#37;</Button>
         <Button op>&#247;</Button>
-        <Button>7</Button>
-        <Button>8</Button>
-        <Button>9</Button>
+        <Button onClick={num(7)}>7</Button>
+        <Button onClick={num(8)}>8</Button>
+        <Button onClick={num(9)}>9</Button>
         <Button op>&#215;</Button>
-        <Button>4</Button>
-        <Button>5</Button>
-        <Button>6</Button>
+        <Button onClick={num(4)}>4</Button>
+        <Button onClick={num(5)}>5</Button>
+        <Button onClick={num(6)}>6</Button>
         <Button op>&#8722;</Button>
-        <Button>1</Button>
-        <Button>2</Button>
-        <Button>3</Button>
+        <Button onClick={num(1)}>1</Button>
+        <Button onClick={num(2)}>2</Button>
+        <Button onClick={num(3)}>3</Button>
         <Button op>&#43;</Button>
-        <Button x2>0</Button>
+        <Button x2 onClick={num(0)}>
+          0
+        </Button>
         <Button>.</Button>
         <Button op>&#61;</Button>
       </div>
