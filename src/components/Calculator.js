@@ -54,7 +54,6 @@ export function Calculator() {
         break
     }
     setRightOperand(0)
-    setCurrentOperation(0)
   }
 
   return (
