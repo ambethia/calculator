@@ -29,6 +29,7 @@ main {
 
 .display {
   margin: 64px auto 24px;
+  text-align: right;
   font-size: 72px;
 }
 
