@@ -28,10 +28,10 @@ main {
 }
 
 .display {
-  margin: 64px auto 24px;
+  margin-top: 44px;
+  padding: 24px;
   text-align: right;
   color: white;
-  font-size: 72px;
 }
 
 .buttons {
