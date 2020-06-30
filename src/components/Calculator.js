@@ -13,6 +13,11 @@ export function Calculator() {
   const [leftOperand, setLeftOperand] = useState(0)
   const [rightOperand, setRightOperand] = useState(0)
 
+  function allClear() {
+    setLeftOperand(0)
+    setRightOperand(0)
+  }
+
   function num(value) {
     return () => {
       let newNumber = leftOperand * 10
@@ -26,7 +31,9 @@ export function Calculator() {
     <div className="calculator">
       <div className="display">{leftOperand}</div>
       <div className="buttons">
-        <Button fn>AC</Button>
+        <Button fn onClick={allClear}>
+          AC
+        </Button>
         <Button fn>&#177;</Button>
         <Button fn>&#37;</Button>
         <Button op>&#247;</Button>
