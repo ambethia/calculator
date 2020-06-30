@@ -22,7 +22,7 @@ export function Calculator() {
 
   function num(value) {
     return () => {
-      let newNumber = leftOperand * 10
+      let newNumber = currentOperation ? rightOperand : leftOperand * 10
       newNumber += value
       setLeftOperand(newNumber)
     }
