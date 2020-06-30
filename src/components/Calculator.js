@@ -61,7 +61,7 @@ export function Calculator() {
       </div>
       <div className="buttons">
         <Button fn onClick={allClear}>
-          AC
+          {currentOperation ? 'C' : 'AC'}
         </Button>
         <Button fn>&#177;</Button>
         <Button fn>&#37;</Button>
