@@ -1,8 +1,6 @@
-import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import React from 'react'
+import { Calculator } from './components/Calculator'
 
-const App = () => {
-  return <HelloWorld />
+export default function App() {
+  return <Calculator />
 }
-
-export default App
