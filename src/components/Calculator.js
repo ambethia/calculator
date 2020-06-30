@@ -13,6 +13,7 @@ export function Calculator() {
   const [currentOperation, setCurrentOperation] = useState(null)
   const [leftOperand, setLeftOperand] = useState(0)
   const [rightOperand, setRightOperand] = useState(0)
+  const [decimal, setDecimal] = useState(false)
 
   function clear() {
     setCurrentOperation(null)
