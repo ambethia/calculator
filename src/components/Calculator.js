@@ -25,6 +25,9 @@ export function Calculator() {
         <Button>2</Button>
         <Button>3</Button>
         <Button>&#43;</Button>
+        <Button>0</Button>
+        <Button>.</Button>
+        <Button>&equals;</Button>
       </div>
     </div>
   )
