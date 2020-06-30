@@ -54,6 +54,14 @@ main {
   font-size: 34px;
 }
 
-.button.double {
+.button.x2 {
   grid-column: span 2;
+}
+
+.button.fn {
+  background-color: ;
+}
+
+.button.op {
+  background-color: #f3a23b;
 }
