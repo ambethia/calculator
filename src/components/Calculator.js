@@ -22,6 +22,10 @@ export function Calculator() {
 
   function num(value) {
     return () => {
+      if (currentOperation && leftOperand === 0) {
+        setLeftOperand(rightOperand)
+        setRightOperand(0)
+      }
       setRightOperand(rightOperand * 10 + value)
     }
   }
