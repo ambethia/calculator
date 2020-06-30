@@ -74,9 +74,7 @@ export function Calculator() {
   return (
     <div className="calculator">
       <div className="display">
-        {parseFloat(
-          (rightOperand !== 0 ? rightOperand : leftOperand).toPrecision(8)
-        ).toString()}
+        {parseFloat(rightOperand.toPrecision(8)).toString()}
       </div>
       <div className="buttons">
         <Button fn onClick={clear}>
