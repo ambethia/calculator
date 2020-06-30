@@ -51,6 +51,7 @@ main {
   align-items: center;
   background-color: #696b62;
   color: white;
+  font-size: 34px;
 }
 
 .button.double {
