@@ -10,6 +10,7 @@ function Button({ x2, op, fn, children, onClick }) {
 }
 
 export function Calculator() {
+  const [currentOperation, setCurrentOperation] = useState(null)
   const [leftOperand, setLeftOperand] = useState(0)
   const [rightOperand, setRightOperand] = useState(0)
 
