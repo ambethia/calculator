@@ -1,8 +1,12 @@
 import React, { useState } from 'react'
 import cx from 'classnames'
 
-function Button({ x2, op, fn, children }) {
-  return <button className={cx('button', { x2, op, fn })}>{children}</button>
+function Button({ x2, op, fn, children, onClick }) {
+  return (
+    <button onClick={onClick} className={cx('button', { x2, op, fn })}>
+      {children}
+    </button>
+  )
 }
 
 export function Calculator() {
