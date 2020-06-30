@@ -27,6 +27,11 @@ main {
   padding: 2px;
 }
 
+.display {
+  margin: 64px auto 24px;
+  font-size: 72px;
+}
+
 .buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
