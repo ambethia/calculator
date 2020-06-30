@@ -40,21 +40,20 @@ export function Calculator() {
   function result() {
     switch (currentOperation) {
       case 'add':
-        setRightOperand(leftOperand + rightOperand)
+        setLeftOperand(leftOperand + rightOperand)
         break
       case 'subtract':
-        setRightOperand(leftOperand - rightOperand)
+        setLeftOperand(leftOperand - rightOperand)
         break
       case 'multiply':
-        setRightOperand(leftOperand * rightOperand)
+        setLeftOperand(leftOperand * rightOperand)
         break
       case 'divide':
-        setRightOperand(leftOperand / rightOperand)
+        setLeftOperand(leftOperand / rightOperand)
         break
       default:
         break
     }
-    setLeftOperand(rightOperand)
     setRightOperand(0)
   }
 
