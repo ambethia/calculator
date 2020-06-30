@@ -32,7 +32,6 @@ export function Calculator() {
 
   function op(operation) {
     return () => {
-      if (currentOperation) result()
       setCurrentOperation(operation)
     }
   }
