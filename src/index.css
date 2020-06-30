@@ -50,6 +50,7 @@ main {
   justify-content: center;
   align-items: center;
   background-color: #696b62;
+  color: white;
 }
 
 .button.double {
