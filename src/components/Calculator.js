@@ -69,7 +69,7 @@ export function Calculator() {
       </div>
       <div className="buttons">
         <Button fn onClick={clear}>
-          {Math.abs(rightOperand) > 0 || currentOperation ? 'C' : 'AC'}
+          {rightOperand !== 0 || currentOperation ? 'C' : 'AC'}
         </Button>
         <Button onClick={changeSign} fn>
           &#177;
