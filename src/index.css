@@ -55,6 +55,10 @@ main {
   font-size: 34px;
 }
 
+.button:active {
+  opacity: 50%;
+}
+
 .button.x2 {
   grid-column: span 2;
 }
