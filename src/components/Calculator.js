@@ -48,7 +48,6 @@ export function Calculator() {
       case 'divite':
         setLeftOperand(leftOperand / rightOperand)
         break
-
       default:
         break
     }
