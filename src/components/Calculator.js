@@ -54,6 +54,8 @@ export function Calculator() {
       default:
         break
     }
+    setLeftOperand(rightOperand)
+    setRightOperand(0)
   }
 
   return (
