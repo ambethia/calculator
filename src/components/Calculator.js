@@ -24,9 +24,10 @@ export function Calculator() {
     return () => {
       if (currentOperation && leftOperand === 0) {
         setLeftOperand(rightOperand)
-        setRightOperand(0)
+        setRightOperand(value)
+      } else {
+        setRightOperand(rightOperand * 10 + value)
       }
-      setRightOperand(rightOperand * 10 + value)
     }
   }
 
