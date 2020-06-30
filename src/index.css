@@ -66,3 +66,7 @@ main {
 .button.op {
   background-color: #f3a23b;
 }
+
+.button:last-child {
+  border-bottom-right-radius: 8px;
+}
