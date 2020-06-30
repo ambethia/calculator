@@ -25,7 +25,7 @@ export function Calculator() {
       if (currentOperation) {
         setRightOperand(rightOperand * 10 + value)
       } else {
-        setLeftOperand(rightOperand * 10 + value)
+        setLeftOperand(leftOperand * 10 + value)
       }
     }
   }
