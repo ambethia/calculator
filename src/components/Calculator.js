@@ -26,7 +26,7 @@ export function Calculator() {
         <Button>2</Button>
         <Button>3</Button>
         <Button op>&#43;</Button>
-        <Button double>0</Button>
+        <Button x2>0</Button>
         <Button>.</Button>
         <Button op>&#61;</Button>
       </div>
