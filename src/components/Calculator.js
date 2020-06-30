@@ -9,7 +9,7 @@ export function Calculator() {
     <div className="display">0</div>
     <Button>AC</Button>
     <Button>&plusmn;</Button>
-    <Button>&percent;</Button>
+    <Button>&percnt;</Button>
     <Button>&divide;</Button>
   </div>;
 }
