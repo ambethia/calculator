@@ -62,18 +62,18 @@ export function Calculator() {
     setRightOperand(0)
   }
 
+  function isOp() {}
+
   return (
     <div className="calculator">
       <div className="display">
         {parseFloat(
-          (Math.abs(rightOperand) > 0 ? rightOperand : leftOperand).toPrecision(
-            8
-          )
+          (isOp() ? rightOperand : leftOperand).toPrecision(8)
         ).toString()}
       </div>
       <div className="buttons">
         <Button fn onClick={clear}>
-          {rightOperand !== 0 || currentOperation ? 'C' : 'AC'}
+          {ioOp() ? 'C' : 'AC'}
         </Button>
         <Button onClick={changeSign} fn>
           &#177;
