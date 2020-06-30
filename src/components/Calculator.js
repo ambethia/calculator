@@ -47,7 +47,7 @@ export function Calculator() {
         setLeftOperand(leftOperand + rightOperand)
         break
       case 'subtract':
-        setLeftOperand(rightOperand - leftOperand)
+        setLeftOperand(leftOperand - rightOperand)
         break
       case 'multiply':
         setLeftOperand(leftOperand * rightOperand)
