@@ -1,4 +1,4 @@
-import React, { setState } from 'react'
+import React, { useState } from 'react'
 import cx from 'classnames'
 
 function Button({ x2, op, fn, children }) {
@@ -6,8 +6,8 @@ function Button({ x2, op, fn, children }) {
 }
 
 export function Calculator() {
-  const [leftOperand, setLeftOperand] = setState(0)
-  const [rightOperand, setRightOperand] = setState(0)
+  const [leftOperand, setLeftOperand] = useState(0)
+  const [rightOperand, setRightOperand] = useState(0)
 
   return (
     <div className="calculator">
