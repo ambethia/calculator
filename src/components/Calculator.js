@@ -7,9 +7,11 @@ function Button({ children }) {
 export function Calculator() {
   return <div className="calculator">
     <div className="display">0</div>
-    <Button>AC</Button>
-    <Button>&plusmn;</Button>
-    <Button>&#37;</Button>
-    <Button>&divide;</Button>
+    <div className="buttons">
+      <Button>AC</Button>
+      <Button>&plusmn;</Button>
+      <Button>&#37;</Button>
+      <Button>&divide;</Button>
+    </div>
   </div>;
 }
