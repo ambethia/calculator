@@ -28,6 +28,10 @@ export function Calculator() {
     }
   }
 
+  function op(operation) {
+    setCurrentOperation(operation)
+  }
+
   return (
     <div className="calculator">
       <div className="display">{leftOperand}</div>
