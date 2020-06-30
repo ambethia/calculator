@@ -1,5 +1,5 @@
 import React from 'react'
 
 export function Calculator() {
-  return <div></div>
+  return <div className="calculator"></div>
 }
