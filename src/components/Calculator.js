@@ -58,9 +58,7 @@ export function Calculator() {
 
   return (
     <div className="calculator">
-      <div className="display">
-        {rightOperand > 0 ? rightOperand : leftOperand}
-      </div>
+      <div className="display">{rightOperand}</div>
       <div className="buttons">
         <Button fn onClick={allClear}>
           AC
