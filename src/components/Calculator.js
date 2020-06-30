@@ -47,7 +47,7 @@ export function Calculator() {
       case 'multiply':
         setLeftOperand(leftOperand * rightOperand)
         break
-      case 'divite':
+      case 'divide':
         setLeftOperand(leftOperand / rightOperand)
         break
       default:
