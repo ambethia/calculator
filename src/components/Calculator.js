@@ -77,6 +77,7 @@ export function Calculator() {
     <div className="calculator">
       <div className="display">
         {parseFloat(rightOperand.toPrecision(8)).toString()}
+        {decimal && '.'}
       </div>
       <div className="buttons">
         <Button fn onClick={clear}>
