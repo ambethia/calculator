@@ -62,7 +62,9 @@ export function Calculator() {
     setRightOperand(0)
   }
 
-  function isOp() {}
+  function isOp() {
+    return rightOperand !== 0 || currentOperation
+  }
 
   return (
     <div className="calculator">
@@ -73,7 +75,7 @@ export function Calculator() {
       </div>
       <div className="buttons">
         <Button fn onClick={clear}>
-          {ioOp() ? 'C' : 'AC'}
+          {isOp() ? 'C' : 'AC'}
         </Button>
         <Button onClick={changeSign} fn>
           &#177;
