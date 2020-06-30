@@ -22,11 +22,11 @@ export function Calculator() {
 
   function num(value) {
     return () => {
-      if (currentOperation) {
-        setRightOperand(rightOperand * 10 + value)
-      } else {
-        setLeftOperand(leftOperand * 10 + value)
-      }
+      // if (currentOperation) {
+      setRightOperand(rightOperand * 10 + value)
+      // } else {
+      //   setLeftOperand(leftOperand * 10 + value)
+      // }
     }
   }
 
