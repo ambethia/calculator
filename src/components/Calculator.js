@@ -1,3 +1,5 @@
 import React from 'react'
 
-export function Calculator() {}
+export function Calculator() {
+  return <div></div>
+}
