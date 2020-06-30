@@ -1,7 +1,7 @@
 import React from "react";
 
-function Button({ children }) {
-  return <button className="btn">{children}</button>;
+function Button({ label }) {
+  return <button className="button">{label}</button>;
 }
 
 export function Calculator() {
