@@ -29,4 +29,6 @@ main {
 .btn {
   display: flex;
   border: none;
+  justify-content: center;
+  align-items: center;
 }
