@@ -28,4 +28,5 @@ main {
 
 .btn {
   display: flex;
+  border: none;
 }
