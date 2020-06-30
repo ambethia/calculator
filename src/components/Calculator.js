@@ -68,7 +68,9 @@ export function Calculator() {
           0
         </Button>
         <Button>.</Button>
-        <Button op>&#61;</Button>
+        <Button onClick={result} op>
+          &#61;
+        </Button>
       </div>
     </div>
   )
