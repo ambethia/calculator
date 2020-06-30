@@ -34,6 +34,19 @@ export function Calculator() {
     }
   }
 
+  function result() {
+    switch (currentOperation) {
+      case 'add':
+        setLeftOperand(leftOperand + rightOperand)
+        break
+
+      default:
+        break
+    }
+    setRightOperand(0)
+    setCurrentOperation(0)
+  }
+
   return (
     <div className="calculator">
       <div className="display">{leftOperand}</div>
