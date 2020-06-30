@@ -33,7 +33,7 @@ export function Calculator() {
 
   function op(operation) {
     return () => {
-      if (operation !== currentOperation) result()
+      result()
       setCurrentOperation(operation)
     }
   }
