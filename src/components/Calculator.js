@@ -37,7 +37,9 @@ export function Calculator() {
     setRightOperand(rightOperand * 0.01)
   }
 
-  function changeSign() {}
+  function changeSign() {
+    setRightOperand(rightOperand * -1)
+  }
 
   function result() {
     switch (currentOperation) {
