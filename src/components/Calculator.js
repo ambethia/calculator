@@ -24,7 +24,7 @@ export function Calculator() {
         <Button>1</Button>
         <Button>2</Button>
         <Button>3</Button>
-        <Button>&plus;</Button>
+        <Button>&add;</Button>
       </div>
     </div>
   )
