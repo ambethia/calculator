@@ -14,7 +14,7 @@ export function Calculator() {
   const [leftOperand, setLeftOperand] = useState(0)
   const [rightOperand, setRightOperand] = useState(0)
 
-  function allClear() {
+  function clear() {
     setCurrentOperation(null)
     setLeftOperand(0)
     setRightOperand(0)
@@ -60,7 +60,7 @@ export function Calculator() {
         {rightOperand > 0 ? rightOperand : leftOperand}
       </div>
       <div className="buttons">
-        <Button fn onClick={allClear}>
+        <Button fn onClick={clear}>
           {rightOperand > 0 || currentOperation ? 'C' : 'AC'}
         </Button>
         <Button fn>&#177;</Button>
