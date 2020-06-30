@@ -15,9 +15,9 @@ export function Calculator() {
   const [rightOperand, setRightOperand] = useState(0)
 
   function allClear() {
+    setCurrentOperation(null)
     setLeftOperand(0)
     setRightOperand(0)
-    setCurrentOperation(null)
   }
 
   function num(value) {
