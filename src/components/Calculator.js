@@ -100,7 +100,6 @@ export function Calculator() {
         </div>
       </div>
       <div>
-        {' '}
         <p>L: {leftOperand}</p>
         <p>O: {currentOperation}</p>
         <p>R: {rightOperand}</p>
