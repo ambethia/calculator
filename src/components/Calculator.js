@@ -39,6 +39,15 @@ export function Calculator() {
       case 'add':
         setLeftOperand(leftOperand + rightOperand)
         break
+      case 'subtract':
+        setLeftOperand(leftOperand - rightOperand)
+        break
+      case 'multiply':
+        setLeftOperand(leftOperand * rightOperand)
+        break
+      case 'divite':
+        setLeftOperand(leftOperand / rightOperand)
+        break
 
       default:
         break
