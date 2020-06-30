@@ -44,22 +44,22 @@ export function Calculator() {
   function result() {
     switch (currentOperation) {
       case 'add':
-        setLeftOperand(leftOperand + rightOperand)
+        setRightOperand(leftOperand + rightOperand)
         break
       case 'subtract':
-        setLeftOperand(leftOperand - rightOperand)
+        setRightOperand(leftOperand - rightOperand)
         break
       case 'multiply':
-        setLeftOperand(leftOperand * rightOperand)
+        setRightOperand(leftOperand * rightOperand)
         break
       case 'divide':
-        setLeftOperand(leftOperand / rightOperand)
+        setRightOperand(leftOperand / rightOperand)
         break
       default:
-        setLeftOperand(rightOperand)
+        setRightOperand(rightOperand)
         break
     }
-    setRightOperand(0)
+    setLeftOperand(0)
   }
 
   function isOp() {
