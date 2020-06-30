@@ -7,6 +7,6 @@ function Button({ children }) {
 export function Calculator() {
   return <div className="calculator">
     <div className="display">0</div>
-    <Button>X</Button>
+    <Button>&times;</Button>
   </div>;
 }
