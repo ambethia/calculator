@@ -17,6 +17,7 @@ export function Calculator() {
   function allClear() {
     setLeftOperand(0)
     setRightOperand(0)
+    setCurrentOperation(null)
   }
 
   function num(value) {
