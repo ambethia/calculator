@@ -65,9 +65,11 @@ export function Calculator() {
   return (
     <div className="calculator">
       <div className="display">
-        {(Math.abs(rightOperand) > 0 ? rightOperand : leftOperand).toPrecision(
-          10
-        )}
+        {parseFloat(
+          (Math.abs(rightOperand) > 0 ? rightOperand : leftOperand).toPrecision(
+            8
+          )
+        ).toString()}
       </div>
       <div className="buttons">
         <Button fn onClick={clear}>
