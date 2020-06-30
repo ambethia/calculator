@@ -7,6 +7,9 @@ function Button({ children }) {
 export function Calculator() {
   return <div className="calculator">
     <div className="display">0</div>
-    <Button>&times;</Button>
+    <Button>AC</Button>
+    <Button>&plusmn;</Button>
+    <Button>&percnt;</Button>
+    <Button>&divide;</Button>
   </div>;
 }
