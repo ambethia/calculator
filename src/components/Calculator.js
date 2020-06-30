@@ -29,7 +29,9 @@ export function Calculator() {
   }
 
   function op(operation) {
-    setCurrentOperation(operation)
+    return () => {
+      setCurrentOperation(operation)
+    }
   }
 
   return (
