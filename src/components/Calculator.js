@@ -9,6 +9,14 @@ export function Calculator() {
   const [leftOperand, setLeftOperand] = useState(0)
   const [rightOperand, setRightOperand] = useState(0)
 
+  function num(value) {
+    return () => {
+      let newNumber = leftOperand * 10
+      newNumber += value
+      setLeftOperand(newNumber)
+    }
+  }
+
   return (
     <div className="calculator">
       <div className="display">0</div>
