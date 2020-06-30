@@ -106,7 +106,7 @@ export function Calculator() {
         <Button x2 onClick={num(0)}>
           0
         </Button>
-        <Button>.</Button>
+        <Button onClick={() => setDecimal(true)}>.</Button>
         <Button onClick={result} op>
           &#61;
         </Button>
