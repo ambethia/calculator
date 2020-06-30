@@ -111,7 +111,6 @@ export function Calculator() {
           &#61;
         </Button>
       </div>
-      {leftOperand} {currentOperation || ' '} {rightOperand}
     </div>
   )
 }
